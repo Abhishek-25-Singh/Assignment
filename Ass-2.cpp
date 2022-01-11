@@ -5,7 +5,7 @@
 
 
 
-#include <iostream>
+
 
 //int main()
 //{
@@ -23,7 +23,7 @@
  
 
 /*Print odd in Range */
-int main()
+/*int main()
 {
     int number{};
     std::cout << "please enter maximum limit value to print odd number = " << std::endl;
@@ -41,5 +41,21 @@ int main()
        
     }
     return 0;
-}
+}*/
 
+/* Print even Number */
+int main() {
+    int Number{};
+    std::cout << "please enter integer:";
+    std::cin >> Number;
+    int i1n{};
+    while (i1n <=Number ) {
+       
+            std::cout << i1n << std:: endl;
+            i1n = i1n + 2;
+       
+        
+    }
+    std::cout << "Completed ......" << std::endl;
+    return 0;
+}
